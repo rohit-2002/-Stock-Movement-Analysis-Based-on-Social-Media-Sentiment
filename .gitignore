@@ -1,0 +1,51 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables files
+.env
+.env.local
+.env.*.local
+
+# Cache and logs
+*.log
+*.csv
+*.tsv
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Model files (if you're saving models locally)
+*.pkl
+*.h5
+
+# Data files (if you don't want to commit large data files)
+data/
